@@ -2,7 +2,7 @@
 """
 Created on Wed Jan 27 16:29:24 2021
 
-@author: amits
+@author: amit saini
 
 Spam Detection Project
 Dataset taken from UCI website: https://archive.ics.uci.edu/ml/datasets/sms+spam+collection
