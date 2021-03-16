@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			Natural Language Processing (NLP) using Flask Framework in Heroku Platform (Amit Saini)
+		</div>
+		<h2>E-mail/Messages Spam Detector</h2>
+		
+		
+		
+	</div>
+	</header>
+	<p style="color:blue;font-size:20;"><b>Result:</b></p>
+	
+	<div class="results">
+		
+	{% if prediction == 1%}
+	<h2 style="color:red;">Caution!!! It is a Spam message/e-mail.</h2>
+	{% elif prediction == 0%}
+	<h2 style="color:green;">Hurray!!! It is not a Spam message/e-mail.</h2>
+	{% endif %}
+
+	</div>
+
+</body>
+</html>
